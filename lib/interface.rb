@@ -18,7 +18,6 @@ puts 'Choose operation [+][-][*][/]'
 
 # 7. Get user answer
 operator = gets.chomp
-puts '---------'
 
 # 8. Perfom the operation
 result = 0
@@ -32,3 +31,5 @@ end
 
 # 9. Show the result to the user
 puts "Result: #{result}"
+
+# 10. Ask user if wants to calculate again
